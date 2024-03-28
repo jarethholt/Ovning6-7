@@ -1,0 +1,20 @@
+/* The following sets variables I can use throughout the CSS file.
+The colors come from using the color picker in GIMP, which is also
+how I cropped the original book logo to make the header. */
+:root {
+    --bockarna-blue: #7bcadf;
+    --bockarna-light-green: #8cbf27;
+    --bockarna-dark-green: #468743;
+}
+
+body {
+    padding: 20px 20px 20px 20px;
+}
+h1 {
+    margin: 15px 0px 15px 0px;
+    border-bottom: 2px solid slategray;
+    padding-bottom: 2px
+}
+h3 {
+    margin: 20px 0px 10px 0px;
+}
