@@ -5,23 +5,37 @@ how I cropped the original book logo to make the header. */
     --bockarna-blue: #7bcadf;
     --bockarna-light-green: #8cbf27;
     --bockarna-dark-green: #468743;
+    --darker-green: #294c26;
 }
 
-/* Set spacing around the body and headers */
+/* Set spacing around the body and text headers */
 body {
     padding: 20px 20px 20px 20px;
+    background-color: var(--bockarna-blue);
 }
-h1 {
+h1 { 
     margin: 15px 0px 15px 0px;
-    border-bottom: 2px solid slategray;
-    padding-bottom: 2px
+    border-bottom: 2px solid var(--darker-green);
+    padding-bottom: 2px;
+    color: var(--bockarna-dark-green);
 }
 h3 {
     margin: 20px 0px 10px 0px;
+    color: var(--bockarna-dark-green);
 }
 
 /* Make the links show up horizontally */
 #links ul li {
     display: inline;
     margin: 0px 5px 0px 5px;
+}
+
+/* Make the primary info text a darker green */
+#about p,table {
+    color: var(--darker-green);
+}
+
+/* Add border around logo to separate it visually */
+header img {
+    border: 3px solid var(--bockarna-dark-green)
 }
