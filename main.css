@@ -6,11 +6,13 @@ how I cropped the original book logo to make the header. */
     --bockarna-light-green: #8cbf27;
     --bockarna-dark-green: #468743;
     --darker-green: #294c26;
+    --darker-blue: #4f818f;
+    --video-width: "560";
 }
 
 /* Set spacing around the body and text headers */
 body {
-    padding: 20px 20px 20px 20px;
+    padding: 20px 20px 0px 20px;
     background-color: var(--bockarna-blue);
 }
 h1 { 
@@ -30,6 +32,10 @@ h3 {
     margin: 0px 5px 0px 5px;
 }
 
+#links ul {
+    text-align: center;
+}
+
 /* Make the primary info text a darker green */
 #about p,table {
     color: var(--darker-green);
@@ -37,5 +43,27 @@ h3 {
 
 /* Add border around logo to separate it visually */
 header img {
-    border: 3px solid var(--bockarna-dark-green)
+    border: 3px solid var(--bockarna-dark-green);
+}
+
+/* Set the footer height and color */
+footer {
+    background-color: var(--darker-blue);
+    height: 50px;
+}
+
+/* Get the footer text to align left/right */
+.footer-div {
+    line-height: 50px;
+    height: 50px;
+}
+
+.left {
+    float: left;
+    padding-left: 25px
+}
+
+.right {
+    float: right;
+    padding-right: 25px;
 }
